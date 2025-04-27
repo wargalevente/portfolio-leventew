@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desktop Publishing</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/script.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <a href="../index.html" class="nav-link">
+                <div class="logo">
+                    <img src="../images/logo_13-04-2025_02.svg" alt="vogel">
+                </div>
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="../index.html#work" class="nav-link">My Work</a></li>
+                    <li class="nav-item"><a href="../index.html#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="../index.html#services" class="nav-link">My Services</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction Prortfolio Item -->
+        <section class="intro">
+            <div class="intro-grid">
+                <h1 class="section-title section-title-intro">Desktop &amp;<strong>publishing</strong></h1>
+                <p class="section-subtitle section-subtitle-intro">a short subtitle</p>
+                <div class="intro-img intro-img-individual intro-img-dtp">
+                    <img src="../images/file-icons/id-pdf.svg" alt="file icons" class="pfolio-individual-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Individual portfolio item -->  
+        
+        <div class="item-individual-wrap">
+            <div class="portfolio-item-individual portfolio-item-media">
+                <h3 class="portfolio-item-text text-01"><strong>Magazine and booklet design</strong></h3>
+                <div class="portfolio-item-individual-media item-individual-media-dtp">
+                    <embed src="../media/portfolio_2025-04-27_11-44.pdf" type="application/pdf" width="100%" height="600" />
+                </div>
+                <p class="portfolio-item-text text-02">
+                    For this portfolio item, I chose to remake a nature walk brochure. However I cannot reproduce all the images so I placed my own nature images in the brochure. Remaking this brochure involves numerous features of InDesign from Parent Pages, Character, Paragraph en Object Styles to Text Frames and Text Wrap. How to use Parent Pages based on another Parent Page. For instance, the best way to keep the footer and header consistent throughout an InDesign document is to create a separate Parent Page for header and footer and use it as the basis Parent Page for other Parent Pages.
+                </p>
+            </div>
+        </div>   
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:wargalevente@gmail.com" class="footer-link">wargalevente@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a href="https://codepen.io/your-work/" class="social-list-link">
+                        <svg class="social-icon">
+                            <use xlink:href="../images/social-icons.svg#codepen-brands-solid"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a href="https://github.com/wargalevente" class="social-list-link">
+                        <svg class="social-icon">
+                            <use xlink:href="../images/social-icons.svg#github-brands-solid"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a href="https://www.linkedin.com/in/levente-warga-55a68238/" class="social-list-link">
+                        <svg class="social-icon">
+                            <use xlink:href="../images/social-icons.svg#linkedin-brands-solid"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+
+</html>

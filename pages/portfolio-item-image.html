@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Raw Image Processing</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/script.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <a href="../index.html" class="nav-link">
+                <div class="logo">
+                    <img src="../images/logo_13-04-2025_02.svg" alt="vogel">
+                </div>
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="../index.html#work" class="nav-link">My Work</a></li>
+                    <li class="nav-item"><a href="../index.html#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="../index.html#services" class="nav-link">My Services</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction Prortfolio Item -->
+        <section class="intro">
+            <div class="intro-grid">
+                <h1 class="section-title section-title-intro"><strong>Raw Image Processing</strong></h1>
+                <p class="section-subtitle section-subtitle-intro">with Adobe Lightroom</p>
+                <div class="intro-img intro-img-individual">
+                    <img src="../images/portfolio-images/homepage-images/vliegende-aalscholver_2025-01-31-1.jpg" alt="vogel" class="pfolio-individual-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Carousel -->
+
+        <section class="carousel-wrap" aria-label="newest-photos">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">
+                    <svg class="chevron chevron-left">
+                        <use xlink:href="../images/common-icons/common-icons.svg#chevron-left-solid"></use>
+                    </svg>
+                </button>
+                <button class="carousel-button next" data-carousel-button="next">
+                    <svg class="chevron chevron-right">
+                        <use xlink:href="../images/common-icons/common-icons.svg#chevron-right-solid"></use>
+                    </svg>
+                </button>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <img src="../images/portfolio-images/carousel/bever-02.JPG" alt="Nature Image #1">
+                    </li>
+                    <li class="slide">
+                        <img src="../images/portfolio-images/carousel/ijsvogel-2-Sep-2024.jpg" alt="Nature Image #2">
+                    </li>
+                    <li class="slide">
+                        <img src="../images/portfolio-images/carousel/lepelaar.jpg" alt="Nature Image #3">
+                    </li>
+                    <li class="slide">
+                        <img src="../images/portfolio-images/carousel/graspieper_9_june_2024.JPG" alt="Nature Image #4">
+                    </li>
+                    <li class="slide">
+                        <img src="../images/portfolio-images/carousel/blauwborst.jpg" alt="Nature Image #5">
+                    </li>
+                    <li class="slide">
+                        <img src="../images/portfolio-images/carousel/grasmus.jpg" alt="Nature Image #6">
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <!-- Individual portfolio item -->  
+        
+        <div class="item-individual-wrap">
+            <div class="portfolio-item-individual item-individual-01">
+                <h3 class="portfolio-item-text text-01"><strong>Great egret</strong></h3>
+                <div class="portfolio-item-individual-raw item-individual-raw-01">
+                    <img src="../images/portfolio-images/image-processing/grote-zilverreiger_2025-01-21.jpg" alt="vogel" class="pfolio-individual-img">
+                </div>
+                <p class="portfolio-item-text text-02">Nowadays we have a regular guest at the canal just behind our house during morning hours. It is a Great egret, a stunningly beautiful bird. It stands often very long completely motionless to grab a bite out of the water. Great egrets, despite becoming nearly extinct in the past, nowadays are quite numerous in the Netherlands, and they sometimes form relatively big groups. It can turn up nearly everywhere where there are rivers, ponds or swamps and marshy lands nearby</p>
+            </div>
+            <div class="portfolio-item-individual item-individual-02">
+                <h3 class="portfolio-item-text text-03"><strong>Great crested grebe</strong></h3>
+                <div class="portfolio-item-individual-raw item-individual-raw-02">
+                    <img src="../images/portfolio-images/image-processing/fuut_2025-01-31.jpg" alt="vogel" class="pfolio-individual-img">
+                </div>
+                <p class="portfolio-item-text text-04">My first genuinely great photo was taken on the 15th April last year. It was a cloudy but relatively warm day, and I was cycling home after shopping. I had a weird feeling that I spotted something unusual: it was, as it turned pout, a Great crested grebe couple, and it even got better there were newly hatched chicks on the back of the female. The only  drawback was that I was shooting in jpeg, so I could not manipulate the image as much as I could have if I had shot it in RAW. So I started to shoot in RAW after finishing my Front-end development since I knew that without a thorough knowledge of Lightroom it is quite useless to shoot in RAW. This picture is one of those early RAW images of 2025.</p>
+            </div>
+            <div class="portfolio-item-individual item-individual-03">
+                <h3 class="portfolio-item-text text-05"><strong>Flying cormorant</strong></h3>
+                <div class="portfolio-item-individual-raw item-individual-raw-03">
+                    <img src="../images/portfolio-images/image-processing/vliegende-aalscholver_2025-01-31.jpg" alt="vogel" class="pfolio-individual-img">
+                </div>
+                <p class="portfolio-item-text text-06">Cormorant is a fairly common bird in the Netherlands, nevertheless I am always fascinated by them when I see them flying or foraging for food. Sometimes a great cormorant turns up at the canal just behind our house. In other words I frequently encounter them I am always amazed by their behaviour. Capturing flying birds on camera is quite a challenge and there is no one single way how it can be done; I chose to use high shutter speed and relatively low aperture to get a sharp photo. It depends, of course, on the sunlight because at low light around sunrise there is a chance that you get an under-exposed photo by high shutter speed.</p>
+            </div>
+            <div class="portfolio-item-individual item-individual-04">
+                <h3 class="portfolio-item-text text-07"><strong>Tufted duck</strong></h3>
+                <div class="portfolio-item-individual-raw item-individual-raw-04">
+                    <img src="../images/portfolio-images/image-processing/kuifeenden_2025-01-31.jpg" alt="vogel" class="pfolio-individual-img">
+                </div>
+                <p class="portfolio-item-text text-08">The tufted duck is a small diving duck with a population of nearly one million birds, found in northern Eurasia. They are partially migratory. They overwinter in the milder south and west of Europe, southern Asia and all year in the British Isles and the Netherlands. These birds feed mainly by diving, but they will sometimes upend from the surface. They eat molluscs, aquatic insects and some plants and sometimes feed at night.</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:wargalevente@gmail.com" class="footer-link">wargalevente@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a href="https://codepen.io/your-work/" class="social-list-link">
+                        <svg class="social-icon">
+                            <use xlink:href="../images/social-icons.svg#codepen-brands-solid"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a href="https://github.com/wargalevente" class="social-list-link">
+                        <svg class="social-icon">
+                            <use xlink:href="../images/social-icons.svg#github-brands-solid"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a href="https://www.linkedin.com/in/levente-warga-55a68238/" class="social-list-link">
+                        <svg class="social-icon">
+                            <use xlink:href="../images/social-icons.svg#linkedin-brands-solid"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+    </body>
+</html>

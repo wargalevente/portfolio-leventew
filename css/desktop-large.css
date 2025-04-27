@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* ==========================================
+	Desktop-large view
+============================================= */
+@media screen and (min-width: 75em) {
+	:root {
+		
+	}
+
+	.vector-slider-wrap {
+		padding-inline: 0;
+	}
+}

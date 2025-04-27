@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* ==========================================
+	Desktop view
+============================================= */
+@media screen and (min-width: 64em) {
+	:root {
+		--fs-caption: 3.5rem;
+	}
+
+	.portfolio {
+    grid-template-columns: repeat(3, 1fr);
+	}
+
+	.carousel {
+		height: 60vh;
+	}
+
+	.carousel-button svg {
+		height: 3.75rem;
+		padding-inline: var(--spacing-300);
+	}
+
+	.vector-slider-wrap {
+		/* padding-inline: 0; */
+	}
+
+	.vector-slide .caption {
+    	font-size: var(--fs-caption-large);
+    	padding: var(--spacing-400) var(--spacing-700);
+	}
+
+	.portfolio-item-individual.portfolio-item-media {
+		justify-content: start;
+	}
+
+	
+}
